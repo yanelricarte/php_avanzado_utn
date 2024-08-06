@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+header {
+  height: 300px;
+}
+
+#contenedor {
+  width: 960px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#botonera_principal {
+  width: 940px;
+  height: 70px;
+  border-left: 20px solid #02c39a;
+  background-color: #fff;
+}
+
+#botonera_principal ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#botonera_principal ul li {
+  display: inline;
+}
+
+#botonera_principal ul li a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  border-right: 1px dotted #ccc;
+  width: 187px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0px;
+}
+
+#botonera_principal ul li a:hover {
+  background-color: #f0f3bd;
+  padding: 0;
+}
+
+#marca {
+  height: 200px;
+  padding-top: 27px;
+  border-left: solid 20px #fd286f;
+  background: rgb(160, 244, 215);
+  background: linear-gradient(
+    0deg,
+    rgba(160, 244, 215, 0.9957876175548589) 0%,
+    rgba(18, 161, 123, 1) 100%
+  );
+}
+
+#contenido {
+  padding: 20px;
+  background-color: #fff;
+  border-left: 20px solid #02c39a;
+}
+
+input,
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+button {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+a.boton_editar {
+  color: #2a9d8f;
+}
+.boton_borrar {
+  border-radius: 16px;
+  border: 2px solid red;
+  background-color: red;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+tabla {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  margin-right: auto;
+}
+
+thead {
+  color: rgb(36, 36, 36);
+}
+
+th,
+td {
+  text-align: center;
+  padding: 5px 0;
+}
+
+tbody tr:hover {
+  background: #fff;
+  color: #565a5d;
+}
+
+.danger {
+  color: red;
+}
+
+footer {
+  background-color: #02c39a;
+  padding: 20px;
+  border-left: 20px solid #fd286f;
+}
+.alerta-advertencia {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alerta {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
